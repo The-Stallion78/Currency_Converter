@@ -1,0 +1,84 @@
+@media (min-width: 576px) and (max-width: 768px) {
+
+    #currency{
+        font-size: 15px;
+    }
+
+    .container {
+        
+        height: auto; 
+        width: 100%; 
+        margin-top: 100px;
+    }
+
+    .fa-arrow-right-arrow-left {
+        font-size: 30px;
+    }
+
+    .select-container img {
+        width: 30px;
+    } 
+
+    form button, select, input {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (min-width: 992px) {
+    .container {
+        padding: 35px;
+        margin-top: 80px;
+    }
+
+    form select, button, input {
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+
+    .fa-arrow-right-arrow-left {
+        font-size: 45px;
+    }
+
+    .select-container img {
+        width: 55px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        padding: 40px;
+        margin-top: 90px;
+    }
+
+    form select, button, input {
+        height: 4.5rem;
+        font-size: 1.4rem;
+    }
+
+    .fa-arrow-right-arrow-left {
+        font-size: 50px;
+    }
+
+    .select-container img {
+        width: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding: 45px;
+        margin-top: 100px;
+    }
+
+    form select, button, input {
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .fa-arrow-right-arrow-left {
+        font-size: 55px;
+    }
+
+    .select-container img {
+        width: 65px;
+    }
+}

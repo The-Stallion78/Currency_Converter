@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1 id="currency">Currency Converter</h1>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="number" value="100">
+            </div>
+    
+            <div class="dropdown">
+
+                <!-- FROM Portion -->
+                <div class="from">
+                    <p>From</p>
+                </div>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="US Flag">
+                    <select name="from">
+                        <option value="USD" selected>USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                        <option value="PKR">PKR</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+
+                <!-- Exchange Icon -->
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <!-- TO Portion -->
+                <div class="from">
+                    <p>To</p>
+                </div>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/PK/flat/64.png" alt="US Flag">
+                    <select name="to">
+                        <option value="PKR" selected>PKR</option>
+                        <option value="USD" >USD</option>
+                        <option value="GBP">GBP</option>
+                        <option value="EUR">EUR</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+            </div><br><br>
+            <!-- ------------------ -->
+
+            <div class="msg"><b>1 USD = 278 PKR</b></div><br><br>
+            <button id="ExchangeBtn"><b>Get Exchange Rate</b></button>
+        </form>
+    </div>
+    
+
+    <script src="contryList.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
